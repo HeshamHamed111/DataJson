@@ -1,0 +1,45 @@
+.card {
+  width: 287px;
+  border: 1px solid #ddd;
+  padding: 12px;
+  border-radius: 7px;
+  margin: 30px auto;
+}
+.img-card img {
+  width: 100%;
+  border-radius: 7px;
+}
+.name-card {
+  color: #ccc;
+  margin-top: 15px;
+}
+.name-card h2 {
+  font-size: 21px;
+  text-align: center;
+}
+.bio-card p {
+  text-align: center;
+  color: #999;
+  position: relative;
+}
+.bio-card p::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  width: 30%;
+  height: 1px;
+  background-color: #777;
+  left: 32%;
+}
+.desc-card p {
+  padding: 30px;
+}
+.all-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 82%;
+  padding: 20px initial;
+  margin: auto;
+}
